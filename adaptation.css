@@ -1,0 +1,927 @@
+@media(max-width: 850px) {
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    
+    
+}   
+
+@media(max-width: 1050px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width:400px){
+    .sidebar{
+        width: 50%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .first-page{
+        min-height: 100vh;
+    }
+    .second-page{
+        min-height: 180vh;
+    }
+    .third-page{
+        min-height: 158vh;
+    }
+    .img-container{
+        position: relative;
+    }
+    .sidebar{
+        height: 100%;
+    }
+    .sidebar a{
+        font-size: 15px;
+    }   
+    .sidebar i{
+        font-size: 25px;
+    }
+   
+    
+}
+
+
+
+@media(max-width:940px){
+    .goats{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+}
+
+
+@media(max-width:1024px){
+
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}
+
+   
+
+
+
+@media(max-width:1400px){
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .home-page-fonts-position{
+        top: 10vh;   
+    }
+    .home-page-fonts2{
+        margin-top: 5%;
+    }
+    
+    .animate{
+        display: flex;  
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+        margin-left: none;
+        
+    }
+    .contact-botton-mobile{
+        display: flex;  
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+        margin-left: none;
+    }
+
+    .img-avatar img {
+        right: none; 
+        left: 50%;
+        transform: translateX(-50%)  scale(0.8);
+        
+    }
+    
+    
+    
+}
+
+@media(min-width:1401px){
+    .img-avatar img{
+        margin-top: 10px;
+        transform: translateY(-50%);
+    }
+    .home-page-fonts-position .img-avatar img{
+        top:10%;
+    }
+
+}
+
+
+@media(max-width:1150px){
+    .timeline{
+        width: 80vw;
+    }
+    .timeline .checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    .timeline .checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .timeline .checkpoint div::before{
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section{
+        min-height: 76vh;
+    }
+    
+    
+    
+}
+@media(max-height:570px){
+    .img-avatar img{
+        margin-top:20% ;
+    }
+}
+
+
+@media(max-height:900px){
+    .img-avatar img{
+        margin-top:2.5% ;
+    }
+}
+
+@media(min-width:1401px){
+    .img-avatar img{
+        margin-top:10% ;
+    }
+}
+@media(min-width:1920px){
+    .img-avatar img{
+        margin-top:5% ;
+    }
+}
+
+
+
+@media(min-height:1401px){
+    .img-avatar img{
+        margin-top:10% ;
+    }
+}
+
+@media (max-width: 1400px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+    .img-avatar img{
+       margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image-column {
+        width: 80%;
+        height: 60vh;
+    }
+
+    .top-column, .bottom-column {
+        width: 90%;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .social-media a{
+        margin: none;
+        padding: none;
+    }
+}
+
+@media (max-width:800px ) {
+    .contacts-inputs{
+        width: 60vh;
+    }
+    
+}
+
+
+
+
+@media (max-width:991px){
+    section{
+        padding: 10rem 3%;
+    }
+
+}
+
+@media (max-width:768px){
+    .home{
+        flex-direction: column;
+    }
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+    .home-content h1{
+        font-size: 5rem;
+    }
+    .home-img img{
+        width: 50vw;
+        margin-top: 4rem;
+    }
+    .home-content{
+        order: 2;
+    }
+    .home{
+        transform: rotateY('-50%');
+    }
+    .social-media a{
+        margin: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+}
+
+@media (max-width:617px){
+    .home-img img{
+        width: 60vw;
+        margin-top: 1rem;
+    }
+    
+}
+
+@media (max-width: 516px) {
+    .contact-left {
+        align-items: center; /* Центрирование содержимого */
+    }
+
+    .contacts-inputs {
+        width: 90%; /* Ширина текстовых полей уменьшена */
+    }
+
+    .contact-left-title h2 {
+        font-size: 28px; /* Уменьшение размера заголовка */
+    }
+
+    .contact-left-title hr {
+        width: 80px; /* Уменьшение ширины полосы */
+    }
+}
+
+@media (max-width: 405px){
+    .my-logo-size{
+        height: 50%;
+        width: 100px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 300px){
+    .my-logo-size{
+        height: 50%;
+        width: 75px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width:1300px){
+    .home-content h3{
+        font-size: 2rem;
+    }
+    .home-content h1{
+        font-size: 3.6rem;
+    }
+    .home-content p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1100px){
+    .home-content h3{
+        font-size: 1.8rem;
+    }
+    .home-content h1{
+        font-size: 3.2rem;
+    }
+    .home-content p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:640px){
+    .home-content h3{
+        font-size: 1.6rem;
+    }
+    .home-content h1{
+        font-size: 3rem;
+    }
+    .home-content p{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:425px){
+    .home-content h3{
+        font-size: 1.6rem;
+    }
+    .home-content h1{
+        font-size: 2.5rem;
+    }
+    .home-content p{
+        font-size: 0.6rem;
+    }
+    .social-media a{
+        height: 2.6rem;
+        width: 2.6rem;
+    }
+}
+
+@media (max-width:340px){
+    .home-content h3{
+        font-size: 1.6rem;
+    }
+    .home-content h1{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 0.6rem;
+    }
+    .social-media a{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+
+@media (max-width:768px) {
+    .social-media a{
+        height: 3rem;
+        width: 3rem;
+    }
+    .home-button{
+        font-size: 1.3rem;
+    }
+    
+}
+
+
+
+@media (min-width: 1920px) {
+    .home-content h3 {
+        font-size: 3rem;
+    }
+    
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    
+    .home-content p {
+        font-size: 1.5rem;
+    }
+    
+    .social-media a {
+        width: 5rem;
+        height: 5rem;
+        font-size: 2.5rem;
+    }
+    
+    .home-button {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .home-content h3 {
+        font-size: 3.5rem;
+    }
+    
+    .home-content h1 {
+        font-size: 7rem;
+    }
+    
+    .home-content p {
+        font-size: 1.8rem;
+    }
+}   
+
+/* Адаптация для больших экранов */
+@media (min-width: 1920px) {
+    :root {
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 3.5rem;
+    }
+    
+    h3 {
+        font-size: 2.2rem;
+    }
+    
+    p, a, .timeline-description, .timeline-title {
+        font-size: 1.2rem;
+    }
+    
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    
+    .home-content h3 {
+        font-size: 3rem;
+    }
+    
+    .home-content p {
+        font-size: 1.5rem;
+    }
+    
+    .home-img img {
+        width: 30vw;
+        max-width: 500px;
+    }
+    
+    .social-media a {
+        width: 5rem;
+        height: 5rem;
+        font-size: 2.5rem;
+        margin: 3rem 2rem 3rem 0;
+    }
+    
+    .home-button {
+        padding: 1.5rem 3.5rem;
+        font-size: 2rem;
+    }
+    
+    .about-text h2,
+    .timeline h2 {
+        font-size: 3.5rem;
+    }
+    
+    .about-text p,
+    .timeline-description {
+        font-size: 1.3rem;
+    }
+    
+    .hobby-item {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+    }
+    
+    .tab-btn {
+        font-size: 1.3rem;
+        padding: 15px 30px;
+    }
+    
+    .achievement-content h3,
+    .language-info h3,
+    .quality-item h3 {
+        font-size: 1.8rem;
+    }
+    
+    .achievement-content p,
+    .language-info p,
+    .quality-item p {
+        font-size: 1.2rem;
+    }
+    
+    .progress-circle {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .progress-text {
+        font-size: 1.3rem;
+    }
+    
+    .contact-left-title h2 {
+        font-size: 3.5rem;
+    }
+    
+    .contacts-inputs {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    
+    .submit-email {
+        padding: 20px 40px;
+        font-size: 1.3rem;
+    }
+    
+    /* Увеличиваем отступы для лучшего восприятия */
+    .home-content {
+        margin-right: 5rem;
+    }
+    
+    .about-section,
+    .custom-container,
+    .profile-wrapper {
+        max-width: 1400px;
+    }
+    
+    .text-block {
+        padding: 40px;
+    }
+    
+    .text-block h3 {
+        font-size: 2rem;
+    }
+    
+    .text-block p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 2560px) { /* 2K экраны */
+    :root {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 6rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+    }
+    
+    .home-content h1 {
+        font-size: 7rem;
+    }
+    
+    .home-img img {
+        width: 25vw;
+        max-width: 600px;
+    }
+    
+    /* Дополнительные увеличения для очень больших экранов */
+    .home {
+        gap: 10rem;
+    }
+    
+    .about-section {
+        gap: 60px;
+    }
+}
+
+@media (min-width: 3840px) { /* 4K экраны */
+    :root {
+        font-size: 24px;
+    }
+    
+    h1 {
+        font-size: 8rem;
+    }
+    
+    .home-content h1 {
+        font-size: 9rem;
+    }
+    
+    .home-img img {
+        max-width: 800px;
+    }
+    
+    /* Увеличиваем максимальную ширину контента */
+    .about-section,
+    .custom-container,
+    .profile-wrapper {
+        max-width: 2000px;
+    }
+}
+
+
+
+
+@media (max-width: 335px) {
+    .social-media {
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    .social-media a {
+        width: 2.8rem;
+        height: 2.8rem;
+        font-size: 1.4rem;
+        margin: 0 0.3rem;
+    }
+    
+    .home-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .home-content h3 {
+        font-size: 1.4rem;
+    }
+    
+    .home-content h1 {
+        font-size: 2rem;
+    }
+    
+    .home-content p {
+        font-size: 0.55rem;
+        line-height: 1.4;
+    }
+}
+
+
+
+
+/* Общие адаптивные стили */
+@media (max-width: 1200px) {
+    .home {
+        gap: 2rem;
+    }
+    
+    .home-content h1 {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+    }
+}
+
+/* Планшеты (768px и меньше) */
+@media (max-width: 768px) {
+    section {
+        padding: 4rem 3%;
+        min-height: auto;
+    }
+    
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .home-content {
+        order: 2;
+        padding: 0;
+    }
+    
+    .home-img {
+        order: 1;
+        margin-bottom: 2rem;
+    }
+    
+    .home-img img {
+        width: 70vw;
+        max-width: 300px;
+    }
+    
+    .social-media {
+        justify-content: center;
+    }
+    
+    /* Навбар */
+    .hideOnMobile {
+        display: none;
+    }
+    
+    .menu-button {
+        display: block;
+    }
+    
+    /* Секция "About me" */
+    .about-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    /* Секция "Goals" */
+    .text-content {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Контакты */
+    .contacts-inputs {
+        width: 100% !important;
+        max-width: 400px;
+    }
+}
+
+/* Мобильные (480px и меньше) */
+@media (max-width: 480px) {
+    section {
+        padding: 3rem 2%;
+    }
+    
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .home-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .home-content p {
+        font-size: 0.9rem;
+    }
+    
+    .social-media a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        margin: 1rem 0.5rem;
+    }
+    
+    .home-button {
+        padding: 0.8rem 1.8rem;
+        font-size: 1.2rem;
+    }
+    
+    /* Сайдбар */
+    .sidebar {
+        width: 70%;
+    }
+    
+    /* Таймлайн */
+    .timeline-item {
+        padding: 10px 0;
+    }
+}
+
+/* Очень маленькие экраны (320px и меньше) */
+@media (max-width: 320px) {
+    .home-content h1 {
+        font-size: 2rem;
+    }
+    
+    .social-media a {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .sidebar {
+        width: 80%;
+    }
+}
+
+/* Большие экраны (1920px и больше) */
+@media (min-width: 1920px) {
+    section {
+        padding: 6rem 10%;
+    }
+    
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    
+    .home-img img {
+        max-width: 500px;
+    }
+}
+
+
+
+/* Специальные стили для высоких устройств (высота > ширины) */
+@media (min-height: 800px) and (max-width: 1200px) {
+    /* Основные исправления */
+    body, html {
+        height: auto;
+        min-height: 100% !important;
+    }
+
+    /* Секции */
+    section {
+        min-height: auto !important;
+        padding: 3rem 5% !important;
+        height: auto;
+    }
+
+    /* Главная секция */
+    .home {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 2rem;
+        gap: 1.5rem;
+    }
+
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .home-img {
+        margin: 0 auto;
+    }
+
+    .home-img img {
+        width: 60vw;
+        max-width: 350px;
+        min-width: 250px;
+    }
+
+    /* О "себе" */
+    .about-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
+
+    /* Цели */
+    .text-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* Профиль */
+    .profile-wrapper {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    /* Контакты */
+    .contact-container {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    /* Навбар */
+    nav {
+        position: sticky;
+    }
+}
+
+/* Дополнительные исправления для очень высоких экранов */
+@media (min-height: 1000px) and (max-width: 1200px) {
+    .home {
+        gap: 3rem;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content p {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+    }
+
+    .social-media {
+        margin: 2rem 0;
+    }
+}
+
+/* Оптимизация для планшетов в альбомной ориентации */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .home {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .home-content {
+        text-align: left;
+        max-width: 50%;
+    }
+
+    .home-img img {
+        width: 35vw;
+    }
+}
